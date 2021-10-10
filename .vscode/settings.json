@@ -1,5 +1,4 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -7,5 +6,10 @@
     "source.organizeImports",
     "source.fixAll.eslint",
     "source.fixAll.stylelint"
+  ],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
   ]
 }
