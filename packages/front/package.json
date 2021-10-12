@@ -1,0 +1,39 @@
+{
+  "name": "@app/front",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "next dev",
+    "quality": "yarn jest && next lint && tsc --project ./tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@app/core": "*",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "5.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "12.1.2",
+    "@testing-library/react-hooks": "7.0.2",
+    "@types/jest": "27.0.2",
+    "@types/react": "17.0.28",
+    "@types/styled-components": "5.1.15",
+    "@typescript-eslint/eslint-plugin": "5.0.0",
+    "@typescript-eslint/parser": "5.0.0",
+    "babel-plugin-jsx-remove-data-test-id": "3.0.0",
+    "eslint": "8.0.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-jest": "25.0.5",
+    "jest": "27.2.5",
+    "lint-staged": "11.2.3",
+    "prettier": "2.4.1",
+    "stylelint": "13.13.1",
+    "stylelint-config-prettier": "9.0.2",
+    "stylelint-config-recess-order": "2.5.0",
+    "stylelint-config-standard": "22.0.0",
+    "ts-jest": "27.0.5",
+    "typescript": "4.4.3"
+  }
+}
