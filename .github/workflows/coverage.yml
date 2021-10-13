@@ -5,8 +5,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
-      - uses: codecov/codecov-action@v2
+      - uses: actions/checkout@v2
+      - name: Install modules
+        run: yarn
+      - name: Run Test
+        run: yarn quality
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: packages/core/coverage/clover.xml
