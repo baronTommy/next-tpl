@@ -18,3 +18,4 @@ jobs:
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+          files: /packages/core/coverage/clover.xml,/packages/front/coverage/clover.xml
