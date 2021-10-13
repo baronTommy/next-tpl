@@ -10,7 +10,7 @@
     "quality": "run-p quality:*",
     "quality:core": "yarn workspace @app/core quality",
     "quality:front": "yarn workspace @app/front quality",
-    "preCommit": "run-p preCommit:*",
+    "preCommit": "run-s preCommit:core preCommit:front",
     "preCommit:core": "yarn workspace @app/core lint-staged",
     "preCommit:front": "yarn workspace @app/front lint-staged",
     "prepare": "husky install"
