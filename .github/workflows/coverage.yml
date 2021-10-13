@@ -15,7 +15,7 @@ jobs:
       - name: Run Test
         run: yarn quality
       - name: Upload coverage to Codecov
-        uses: /codecov/codecov-action@v2
+        uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: packages/core/coverage/clover.xml
+          files: /packages/core/coverage/clover.xml
