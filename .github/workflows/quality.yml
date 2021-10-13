@@ -1,5 +1,3 @@
-name: Quality
-
 on: [pull_request]
 
 jobs:
