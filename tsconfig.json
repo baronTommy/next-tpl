@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@app/core/*": [
+                "packages/core/src/*"
+            ],
+            "@app/front/*": [
+                "packages/front/src/*"
+            ],
+        },
+        "noEmit": true
+    }
+}

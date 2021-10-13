@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "quality": "run-p quality:*",
+    "quality:core": "yarn workspace @app/core quality",
+    "quality:front": "yarn workspace @app/front quality",
+    "preCommit": "run-p preCommit:*",
+    "preCommit:core": "yarn workspace @app/core lint-staged",
+    "preCommit:front": "yarn workspace @app/front lint-staged",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "gitmoji-cli": "4.7.0",
+    "husky": "7.0.2",
+    "npm-run-all": "4.1.5"
+  }
+}
