@@ -3284,6 +3284,11 @@ get-uri@3:
     fs-extra "^8.1.0"
     ftp "^0.3.10"
 
+git-cz@4.8.0:
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/git-cz/-/git-cz-4.8.0.tgz#9dde589ce4e12d5aa4ee4fe54c6eef5f4635e6c3"
+  integrity sha512-2muVkIcT6cT/9eXuxztlKQSRiOy/oHhFldCySOi1xuRJ9T5yHlg3SRQhVLoY9BVu9kxSE3YcHYp0KgQW0vUf4A==
+
 gitignore-to-glob@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/gitignore-to-glob/-/gitignore-to-glob-0.3.0.tgz#59f32ab3d9b66ce50299c3ed24cb0ef42a094ceb"
