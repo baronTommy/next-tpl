@@ -51,14 +51,7 @@ module.exports = {
   list: Object.keys(angularStyle),
   maxMessageLength: 64,
   minMessageLength: 3,
-  questions: [
-    "type",
-    // "scope",
-    "subject",
-    "body",
-    "breaking",
-    "issues",
-  ],
-  scopes: [],
+  questions: ["type", "scope", "subject", "body", "breaking", "issues"],
+  scopes: ["root", "core", "front"],
   types: angularStyle,
 };
