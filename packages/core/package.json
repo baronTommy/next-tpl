@@ -5,7 +5,7 @@
   "scripts": {
     "quality": "run-p quality:*",
     "quality:lint-fmt": "run-s lint fmt",
-    "quality:unitTest": "jest",
+    "quality:unitTest": "jest --testPathIgnorePatterns .gitignore",
     "quality:jscpd": "jscpd ./src",
     "quality:type": "tsc --project ./tsconfig.json --noEmit",
     "lint": "eslint --fix --ignore-path .gitignore .",
