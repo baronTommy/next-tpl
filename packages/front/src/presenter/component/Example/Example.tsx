@@ -9,6 +9,10 @@ export const Example: React.VFC = () => {
       <p>monorepo: {state.monorepoValue}</p>
       <div data-test-id="Example">
         <S.Txt>ExampleComponent</S.Txt>
+        <img
+          src="/media/cc0-images/grapefruit-slice-332-332.jpg"
+          alt="Grapefruit slice atop a pile of other slices"
+        />
       </div>
     </>
   );

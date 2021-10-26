@@ -8,4 +8,5 @@ module.exports = {
     // prettierとのバッティング回避
     "stylelint-config-prettier",
   ],
+  customSyntax: "@stylelint/postcss-css-in-js",
 };
