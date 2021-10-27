@@ -46,6 +46,7 @@ BREAKING CHANGE: {{breakingChange}}`,
      * This is the theme color of the terminal.
      */
     color: "green",
+    templateName: "Conventional Commit with gitmoji",
   },
   questionDictionary: [
     {
