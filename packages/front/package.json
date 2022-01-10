@@ -27,7 +27,7 @@
     "@types/jest": "27.4.0",
     "@types/react": "17.0.37",
     "@types/styled-components": "5.1.19",
-    "@typescript-eslint/eslint-plugin": "5.4.0",
+    "@typescript-eslint/eslint-plugin": "5.9.0",
     "@typescript-eslint/parser": "5.8.1",
     "babel-plugin-jsx-remove-data-test-id": "3.0.0",
     "eslint": "8.5.0",
